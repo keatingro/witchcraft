@@ -4,9 +4,10 @@ body {
     font-size: 15px;
     line-height: 20px;
     color: purple;
-    background-color: white;
+    background-image: url(background.png);
     display: inline-block;
     text-align: center;
+    background-size: 100%;
 }
 
 .title{
@@ -30,6 +31,7 @@ h3 {
     box-shadow: 0px 0px 0px 3px purple;
     margin-right: 20vw;
     margin-left: 20vw;
+    background-color: rgb(223, 223, 223);
 }
 .intro {
     padding: 20px;
