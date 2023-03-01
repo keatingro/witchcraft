@@ -8,6 +8,7 @@ body {
     display: inline-block;
     text-align: center;
 }
+
 .title{
     font-size: 1.5em;
     margin-right: 30vw;
@@ -41,9 +42,6 @@ iframe{
 .map {
     padding: 20px;
 }
-nav{
-
-}
 nav ul{
     list-style-type: none;
     padding: 0;
@@ -66,4 +64,8 @@ nav ul li a:hover{
     color: purple;
     background-color: pink;
     font-weight: bold;
+}
+.barshadow{
+    box-shadow: 0px 0px 10px 3px purple;
+    border-radius: 50px;
 }
