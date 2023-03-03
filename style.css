@@ -9,32 +9,46 @@ body {
     background-repeat: no-repeat;
     text-align: center;
 }
-
+img {
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
 .title{
     font-size: 1.5em;
     margin-right: 30vw;
     font-weight: bold;
+    text-shadow: 1px 1px 2px black;
 }
 p{
     font-family: 'Raleway', sans-serif;
+    font-size: 1.15em;
 }
 h1 {
     font-size: 50px;
     font-family: 'Gloock', serif;
+    text-shadow: 1px 1px 2px black;
+
+}
+h2 {
+    font-size: 25px;
+    font-family: 'Gloock', serif;
+    text-shadow: 1px 1px 3px purple;
+
 }
 h3 {
     font-size: 30px;
     font-family: 'Gloock', serif;
+    text-shadow: 1px 1px 3px purple;
 }
 .shadow {
     border-radius: 20px;
     box-shadow: 0px 0px 0px 3px purple;
-    margin-right: 10vw;
-    margin-left: 10vw;
-    background-color: rgb(223, 223, 223);
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: rgb(224, 231, 236);
 }
 .intro {
-    padding: 20px;
+    padding: 1vw;
     text-align: center;
 }
 iframe{
@@ -42,8 +56,12 @@ iframe{
     border-radius: 20px;
 }
 .map {
-    padding: 20px;
-
+    float: right;
+    margin-right: 9.6vw;
+}
+.map2 {
+    float: left;
+    margin-left: 9.5vw;
 }
 nav ul{
     list-style-type: none;
@@ -70,16 +88,19 @@ nav ul li a:hover{
     background-color: pink;
     font-weight: bold;
 }
-.barshadow{
-    box-shadow: 0px 0px 10px 3px purple;
-    border-radius: 50px;
-}
+
 .pl{
     float: left;
     width: 40%;
-    margin-left: 7vw;
+    margin-left: 7%;
 }
 .pr{
+    float: right;
+    width: 40%;
+    margin-right: 7%;
+}
+.pr2{
+    margin-top: 5vw;
     float: right;
     width: 40%;
     margin-right: 7vw;
@@ -96,7 +117,58 @@ nav ul li a:hover{
   }
 img[src*="Title-left.png"] {
     width: 60px;
+
 }
-img[src*="Title-right.png"] {
+h1 img[src*="Title-right.png"] {
     width: 60px;
+}
+
+.witches1 img {
+    width: 150px;
+}
+.witches2 {
+    padding-right: 5.5vw;
+    margin-top: 6vw;
+    margin-bottom: 5vw;
+}
+.witches2 img {
+    width: 150px;
+}
+.witchexample1 {
+    float: right;
+    text-align: center;
+    width: 40%;
+    padding-right: 5.5vw;
+    padding-top: 4vw;
+}
+.witchexample2 {
+    float: right;
+    text-align: center;
+    width: 40%;
+    padding-right: 5.5vw;
+    padding-top: 4vw;
+}
+.witchexample3 {
+    float: left;
+    text-align: center;
+    width: 40%;
+    padding-left: 5.5vw;
+    padding-top: 4vw;
+}
+.witchexampletext {
+    float: left;
+    text-align: center;
+    width: 40%;
+    padding-left: 5.5vw;
+    padding-top: 4vw;
+}
+.witchexampletext img{
+    width: 200px;
+    height: 337.13px;
+}
+.barchart{
+    padding-top: 5vw;
+}
+.barchart img{
+    width: 640px;
 }
